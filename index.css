@@ -1,6 +1,9 @@
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .convert-header {
@@ -47,4 +50,30 @@ body {
     border: none;
     border-radius: 10px;
     font-size: 24px;
+}
+
+.conversion-results {
+    background-color: #1F2937;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conversion-results h2 {
+    color: #CCC1FF;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.converted-container {
+    background-color: #273549;
+    height: 150px;
+    width: 700px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
 }

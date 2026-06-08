@@ -10,11 +10,28 @@
     <title>Unit Converter</title>
 </head>
 <body>
+
     <header class="convert-header">
-        <h1 class="convert-header-text">Metric/Imperiam Unit Conversion</h1>
+        <h1 class="convert-header-text">Metric/Imperial Unit Conversion</h1>
         <input type="number" min="1" id="number-input">
         <button id="convert-btn">Convert</button>
     </header>
+
+    <main class="conversion-results">
+        <div class="converted-container">
+            <h2>Length (Meter/Feet)</h2>
+            <p id="length"></p>
+        </div>
+        <div class="converted-container">
+            <h2>Volume (Liters/Gallons)</h2>
+            <p id="volume"></p>
+        </div>
+        <div class="converted-container">
+            <h2>Mass (Kilograms/Pounds)</h2>
+            <p id="Mass"></p>
+        </div>
+    </main>
+
     <script src="index.js"></script>
 </body>
 </html>
